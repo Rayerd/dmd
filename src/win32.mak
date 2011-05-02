@@ -8,16 +8,16 @@
 #   http://www.digitalmars.com/ctg/make.html
 # which should be in \dm\bin or in \dmd\windows\bin 
 
-D=
-DMDSVN=\svnproj\dmd\trunk\src
+D=c:\d
+DMDSVN=$D\gitproj\dmd\src
 #DMDSVN=\svnproj\dmd\branches\dmd-1.x\src
 SCROOT=$D\dm
 INCLUDE=$(SCROOT)\include
-CC=dmc
+CC=c:\d\dm\bin\dmc
 LIBNT=$(SCROOT)\lib
 SNN=$(SCROOT)\lib\snn
 DIR=\dmd2
-CP=cp
+CP=copy /Y
 
 C=backend
 TK=tk
